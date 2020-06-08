@@ -1,0 +1,23 @@
+[readMore]
+other = "Leia mais"
+
+[readingTime]
+other = "{{ .ReadingTime }} min leitura"
+
+[toc]
+other = "Sumário"
+
+[seriesOfPosts]
+other = "Série de postagens"
+
+[previous]
+other = "Anterior"
+
+[next]
+other = "Próximo"
+
+[seeAlso]
+other = "Veja também"
+
+[recent]
+other = "Recentes"

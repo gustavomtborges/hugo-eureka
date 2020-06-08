@@ -1,10 +1,9 @@
 <div class="flex flex-wrap flex-row items-center my-2 text-tertiary-text">
     <div class="mr-4 my-2">
         <i class="fas fa-calendar"></i>
-        <span>{{ dateFormat "Jan 2, 2006" .Date }}</span>
+        <span>{{ dateFormat "Jan 2, 2006" .Date.Local }}</span>
     </div>
     <div class="mr-4 my-2">
-        <span>&middot;</span>
     </div>
     <div class="mr-4 my-2">
         <i class="fas fa-clock"></i>
@@ -12,7 +11,6 @@
     </div>
     {{ with .GetTerms "categories" }}
     <div class="mr-4 my-2">
-        <span>&middot;</span>
     </div>
     <div class="mr-4 my-2">
         <i class="fas fa-folder"></i>
